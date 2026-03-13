@@ -1,5 +1,6 @@
 # Multimedial
 #### Exploración creativa de arte, tecnologia y medios digitales interactivos.
+#### Cultura web y arte digital.
 
 Ejercicio 1, semana 1
 ```
