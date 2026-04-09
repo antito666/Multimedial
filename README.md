@@ -72,5 +72,81 @@ MULTIMEDIAL
 
 </html>
 <!-- Fin del documento HTML -->
-
 ```
+
+Ejercicio 2, semana 2: Enlaces (links)
+
+Ejemplo 2 con dos páginas:
+index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi sitio</title>
+</head>
+
+<body>
+
+<h1>Página principal</h1>
+
+<a href="pagina2.html">Ir a la segunda página</a>
+
+</body>
+</html>
+```
+pagina2.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Página 2</title>
+</head>
+
+<body>
+
+<h1>Esta es la segunda página</h1>
+
+<a href="index.html">Volver a la página principal</a>
+
+</body>
+</html>
+```
+Sintaxis básica:
+```
+<img src="imagen.jpg" alt="descripción">
+```
+
+Ejercicio 3, semana 3
+Objetivo: pensar en estructura + narrativa.
+
+Crear 3 páginas:
+index.html obra.html contacto.html
+
+index.html:
+```
+<h1>Mi sitio</h1>
+
+<a href="obra.html">Obra</a><br>
+<a href="contacto.html">Contacto</a>
+```
+obra.html
+```
+<h1>Mi obra</h1>
+
+<p>Descripción de mi trabajo artístico</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="contacto.html">Contacto</a>
+```
+contacto.html:
+```
+<h1>Contacto</h1>
+
+<p>email@email.com</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="obra.html">Obra</a>
+```
+Ejercicio 4, semana 4
+```
+
