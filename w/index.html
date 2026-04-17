@@ -10,45 +10,60 @@
 <meta charset="UTF-8">
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
-<title>Multimedial</title>
+<title>santo.art</title>
 <!-- Título de la página que aparece en la pestaña del navegador -->
 
 <style>
 /* Aquí comienza la sección de estilos CSS que define la apariencia visual */
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+/* Estilo general del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(247, 241, 241);
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+        }
 
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
+        /* Contenedor principal */
+        .contenedor {
+            width: 80%;
+            margin: auto;
+            justify-content: center;
+        }
 
-  color: black;
-  /* Define que el color del texto sea negro */
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgb(247, 241, 241);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            justify-content: center;
+        }
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+        /* Imagen */
+        .bloque img {
+            margin-left: 500px;
+            width: 40%;
+            height: auto;
+            justify-content: center;
+        }
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
+        /* Encabezado */
+        .bloque h2 {
+            margin-left: 1000px;
+            margin-top: 10px;
+            font-size: xx-large;
+            justify-content: center;
+        }
 
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+            margin-left: 500px;
+            
+            
+        }
 </style>
 <!-- Fin de la sección de estilos -->
 
@@ -58,11 +73,23 @@ body{
 <body>
 <!-- Inicio del contenido visible de la página -->
 
-MULTIMEDIAL
+<div class="bloque">
+ <h2>Santo</h2>
+</div>
 <!-- Texto que aparece en el centro de la pantalla -->
 
+<div class="bloque">
+<a href="contacto.html">Inicio</a><br>
+
+<a href="obras.html">Obra</a><br>
+
+<a href="contacto.html">Contacto</a>
+
+</div>
 </body>
 <!-- Fin del contenido visible -->
 
-</html>
-<!-- Fin del documento HTML -->
+    
+        
+
+
