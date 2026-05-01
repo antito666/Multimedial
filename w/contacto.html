@@ -1,22 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Contacto</title>
-</head>
+    <meta charset="UTF-8">
+    <title>santo.art | Contacto</title>
+    <style>
 
+        * { 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        body { 
+            font-family: 'times new roman';
+            background-color: #ffffff;
+            color: #000;
+            display: flex;
+            min-height: 100vh; 
+        }
+    
+     /* Menú Lateral */
+  
+nav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    z-index: 100;
+}
+
+nav h1 {
+    font-weight: 200;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    cursor: pointer;
+    color: #000;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio uniforme entre los enlaces */
+}
+
+.links a {
+    text-decoration: none;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    line-height: 1.2; /* Reset para que no herede el line-height del body */
+}
+
+.links a:hover, .links a.active {
+    color: #000;
+}
+
+/* Ajuste del contenido para que no lo tape el menú */
+main, .contenido-principal {
+    margin-left: 200px; 
+    width: calc(100% - 200px);
+    min-height: 100vh;
+}
+
+/* Ajuste para móviles */
+@media (max-width: 600px) {
+    nav { 
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        padding: 20px; 
+        text-align: center; 
+    }
+    .links { 
+        flex-direction: row; 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    main, .contenido-principal { 
+        margin-left: 0; 
+        width: 100%; 
+    }
+}
+
+        /* SECCIÓN DE CONTACTO ÚNICA */
+        main {
+            margin-left: 220px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .contacto-container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .contacto-container h2 {
+            font-weight: 100;
+            font-size: 2.5rem;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            color: #000;
+        }
+
+        .dato-contacto {
+            margin-bottom: 40px;
+        }
+
+        /* Etiqueta pequeña (Email, Tel, etc) */
+        .dato-contacto span {
+            display: block;
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .dato-contacto a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 300;
+            transition: opacity 0.3s;
+            border-bottom: 1px solid transparent;
+        }
+
+        .dato-contacto a:hover {
+
+            opacity: 0.5;
+            border-bottom: 1px solid #000;
+        }
+    
+
+    </style>
+</head>
 <body>
 
-<h1>Contacto</h1>
+    <nav>
+        <h1 onclick="location.href='index.html'">SANTO</h1>
+        <div class="links">
+            <a href="index.html">Inicio</a>
+            <a href="obras.html">Obras</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
 
-<img src="contacto.jpg" alt="Imagen de contacto" width="300">
+    <main>
+        <div class="contacto-container">
+            <h2>Contacto</h2>
 
-<p>s4nto4rt@gmail.com</p>
+            <div class="dato-contacto">
+                <span>Email</span>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=s4nto4rt@gmail.com" target="_blank">s4nto4rt@gmail.com</a>
+    </div>
 
-<a href="index.html">Inicio</a><br>
+            <div class="dato-contacto">
+                <span>Teléfono</span>
+                <a href="tel:+56977257978">+56 9 77257978</a>
+    </div>
 
-<a href="obras.html">Obra</a><br>
-
-<a href="contacto.html">Contacto</a><br>
+            <div class="dato-contacto">
+                <span>Instagram</span>
+                <a href="https://www.instagram.com/art__santo/" target="_blank">@art__santo</a>
+            </div>
+        </div>
+    </main>
 
 </body>
 </html>
