@@ -4,13 +4,12 @@
 
 ### Index
 
-## Unidad I. [Hipervínculo]
+## Unidad I. Hipervínculo
 1. [Mi pagina web.](#ejercicio-1-mi-pagina-web) 
 
 ## Unidad II. Programación visual creativa basada en nodos
 
 1. [Intro Touch Designer.](#intro-touchdesigner)
-2. [Ejercicios.](#ejercicios-con-touchdesigner)
 
 
 ## Unidad I. Hipervínculo
