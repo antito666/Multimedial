@@ -541,4 +541,4 @@ main, .contenido-principal {
 
 <style>
     body{
-        background-color: rgb(82, 4, 117)}
+        background-color: hsl(318, 13%, 40%)}
