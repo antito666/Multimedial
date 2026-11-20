@@ -2,7 +2,21 @@
 #### Exploración creativa de arte, tecnologia y medios digitales interactivos.
 #### Cultura web y arte digital.
 
-Ejercicio 1, [Index:](https://antito666.github.io/Multimedial/w/index.html)
+### Index
+
+## Unidad I. [Hipervínculo]
+1. [Mi pagina web.](#ejercicio-1-mi-pagina-web) 
+
+## Unidad II. Programación visual creativa basada en nodos
+
+1. [Intro Touch Designer.](#intro-touchdesigner)
+2. [Ejercicios.](#ejercicios-con-touchdesigner)
+
+
+## Unidad I. Hipervínculo
+
+#### Ejercicio 1, Mi pagina web 
+[Index:](https://antito666.github.io/Multimedial/w/index.html)
 
 ```
 <!DOCTYPE html>
@@ -518,6 +532,10 @@ main, .contenido-principal {
 </html>
 ```
 
-## Ejercicios con TouchDesigner:
+## Intro TouchDesigner:
+
 #### [lsystem:](https://drive.google.com/drive/folders/1YOWy3f60O9f4HLP63a-3TfSWbuuSmHxN)
 <img src="https://antito666.github.io/Multimedial/w/img/giphytd2.gif" width="auto" height="auto" />
+
+#### [point:](https://drive.google.com/drive/folders/1R6pyLGTVwhnx3ZhugPtKKkZf-Esu_7fe)
+<img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
