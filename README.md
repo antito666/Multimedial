@@ -2,8 +2,8 @@
 #### Exploración creativa de arte, tecnologia y medios digitales interactivos.
 #### Cultura web y arte digital.
 
-Ejercicio 1, [mi sitio web:](https://antito666.github.io/Multimedial/w/index.html)
-Index
+Ejercicio 1, [Index:](https://antito666.github.io/Multimedial/w/index.html)
+
 ```
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
@@ -134,6 +134,8 @@ Index
 
 </body>
 </html>
+```
+[Obras](https://antito666.github.io/Multimedial/w/obras.html)
 ```
 
 ## Ejercicios con TouchDesigner:
