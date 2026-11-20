@@ -2,12 +2,12 @@
 #### Exploración creativa de arte, tecnologia y medios digitales interactivos.
 #### Cultura web y arte digital.
 
-Ejercicio 1, semana 1
+Ejercicio 1, mi sitio web:
 ```
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
-<html>
+<html lang="es">  
 <!-- Inicio del documento HTML -->
 
 <head>
@@ -16,62 +16,123 @@ Ejercicio 1, semana 1
 <meta charset="UTF-8">
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
-<title>Multimedial</title>
+<title>santo.art | Galería</title>
 <!-- Título de la página que aparece en la pestaña del navegador -->
 
 <style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+/* Aquí comienza la sección de estilos CSS que define la apariencia visual */      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+/* Estilo general del cuerpo */
 
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
+        body {
+            font-family: 'times new roman';
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 3.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-  color: black;
-  /* Define que el color del texto sea negro */
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+       /* Contenedor principal */
+        .contenedor {
+            width: 100%;
+            padding: 60px 40px;
+            text-align: center;
+        }
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 200;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin-bottom: 1%;
+            text-align: center;
+        }
 
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
+        /* Navegación Minimalista */
+        nav {
+            margin-bottom: 50px;
+        }
 
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
+        nav a {
+            text-decoration: none;
+            color: #888;
+            font-size: 0.85rem;
+            margin: 0 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.4s ease;
+        }
 
-  align-items: center;
-  /* Centra el contenido verticalmente */
+        nav a:hover {
+            color: #000;
+        }
 
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
+        /* Contenedor de Obra Principal */
+        .hero-art {
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 80px;
+            overflow: hidden;
+        }
 
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
+        .hero-art img {
+            width: 100%;
+            height: auto;
+            display: block;
+            filter: grayscale(20%); /* Toque artístico */
+            transition: filter 0.5s ease;
+        }
 
-}
-/* Fin de las reglas de estilo del body */
+        .hero-art img:hover {
+            filter: grayscale(0%);
+        }
 
-</style>
-<!-- Fin de la sección de estilos -->
+        /* Pie de página sutil */
+        footer {
+            padding: 40px;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            color: #bbb;
+            text-transform: uppercase;
+        }
 
+        /* Ajuste para móviles */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            nav a { display: block; margin: 10px 0; }
+        }
+    </style>
 </head>
-<!-- Fin de la sección head -->
-
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+    <header>
+        <h1>SANTO</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="obras.html">Obras</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="hero-art">
+        <img src="img/5.jpg" alt="Obra de Santo">
+    </main>
+
+    <footer>
+        &copy; 2026 SANTO ART.
+    </footer>
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
 ```
 
 Ejercicio 2, semana 2: Enlaces (links)
