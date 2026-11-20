@@ -1,8 +1,8 @@
 # Multimedial
 ```
-#### Bitácora de procesos
-#### Exploración creativa de arte, tecnologia y medios digitales interactivos.
-#### Cultura web y arte digital.
+Bitácora de procesos
+Exploración creativa de arte, tecnologia y medios digitales interactivos.
+Cultura web y arte digital.
 ```
 <img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
 
@@ -541,6 +541,3 @@ main, .contenido-principal {
 #### [point:](https://drive.google.com/drive/folders/1R6pyLGTVwhnx3ZhugPtKKkZf-Esu_7fe)
 <img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
 
-<style>
-    body{
-        background-color: hsl(318, 13%, 40%)}
