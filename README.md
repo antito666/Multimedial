@@ -1,8 +1,10 @@
 # Multimedial
+```
+#### Bitácora de procesos
 #### Exploración creativa de arte, tecnologia y medios digitales interactivos.
 #### Cultura web y arte digital.
-
-### Index
+```
+<img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
 
 ## Unidad I. Hipervínculo
 1. [Mi pagina web.](#ejercicio-1-mi-pagina-web) 
