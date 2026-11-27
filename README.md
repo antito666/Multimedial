@@ -541,6 +541,8 @@ main, .contenido-principal {
 
 #### [point:](https://drive.google.com/drive/folders/1R6pyLGTVwhnx3ZhugPtKKkZf-Esu_7fe)
 <img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
+<img src="https://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20135923.png" width="auto" height="auto" />
+<img src="http://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20135859.png" width="auto" height="auto" />
 
 ## Entrega final:
 Mapping
