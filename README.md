@@ -543,4 +543,6 @@ main, .contenido-principal {
 <img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
 
 ## Entrega final:
+<img src="http://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20134908.png" width="auto" height="auto" />
+<img src="https://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20134921.png" width="auto" height="auto" />
 
