@@ -535,7 +535,6 @@ main, .contenido-principal {
 ```
 
 ## Intro TouchDesigner:
-mapping
 
 #### [lsystem:](https://drive.google.com/drive/folders/1YOWy3f60O9f4HLP63a-3TfSWbuuSmHxN)
 <img src="https://antito666.github.io/Multimedial/w/img/giphytd2.gif" width="auto" height="auto" />
@@ -544,6 +543,8 @@ mapping
 <img src="https://antito666.github.io/Multimedial/w/img/giphy.gif" width="auto" height="auto" />
 
 ## Entrega final:
+mapping
+
 <img src="http://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20134908.png" width="auto" height="auto" />
 <img src="https://raw.githubusercontent.com/antito666/Multimedial/refs/heads/main/w/img/Captura%20de%20pantalla%202026-11-27%20134921.png" width="auto" height="auto" />
 
